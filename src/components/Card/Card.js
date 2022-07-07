@@ -5,7 +5,8 @@ import './Cards.css';
 
 export default function Card({config}) {
   return (
-    <article className="card" id={config.anchor}>
+    <article className="card">
+      <span className="anchor" id={config.anchor}></span>
       <h2 className="card__title">{config.title}</h2>
 
       <SimpleSlider images={config.images} />
