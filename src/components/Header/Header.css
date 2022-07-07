@@ -1,0 +1,29 @@
+header {
+  background-color: #FFF9EE;
+  position: fixed;
+  width: 100%;
+  padding: 25px 19px 20px;
+  top: 0px;
+  z-index: 1;
+}
+
+@media(min-width: 1024px) {
+  header {
+    padding: 15px 10px 13px;
+  }
+}
+
+.burger {
+  width: 18px;
+  height: 14px;
+  display: block;
+  background: url('../../img/burger.png') no-repeat center;
+  background-size: contain;
+}
+
+.close-burger {
+  width: 16px;
+  height: 16px;
+  background: url('../../img/close-burger.png') no-repeat center;
+  background-size: contain;
+}
